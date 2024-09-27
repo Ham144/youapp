@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--background: linear-gradient(
+		25deg,
+		rgba(22, 50, 52, 1) 0%,
+		rgba(22, 59, 60, 1) 64%,
+		rgba(89, 130, 135, 1) 100%
+	);
+	--foreground: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--background: #2e2525;
+		--foreground: #ededed;
+	}
+}
+
+body {
+	color: var(--foreground);
+	background: var(--background);
+	font-family: Helvetica, sans-serif;
+}
+
+@layer utilities {
+	.text-balance {
+		text-wrap: balance;
+	}
+}
