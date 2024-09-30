@@ -39,8 +39,7 @@ const RegisterPage = () => {
 						placeholder="Enter Email"
 						className="input  input-accent w-full 
                     border-none
-                    opacity-30
-                    bg-slate-600 text-white placeholder:text-white
+                    bg-slate-600 text-white 
                     "
 					/>
 					<input
@@ -48,8 +47,7 @@ const RegisterPage = () => {
 						placeholder="Create Username"
 						className="input  input-accent w-full 
                     border-none
-                    opacity-30
-                    bg-slate-600 text-white placeholder:text-white
+                    bg-slate-600 text-white 
                     "
 					/>
 					<span className="relative w-full flex ">
@@ -58,8 +56,7 @@ const RegisterPage = () => {
 							placeholder="Create Password"
 							className="input  input-accent w-full 
                     border-none
-                    opacity-30
-                    bg-slate-600 text-white placeholder:text-white
+                    bg-slate-600 text-white 
                     "
 						/>
 						<span
@@ -79,8 +76,7 @@ const RegisterPage = () => {
 							placeholder="Create Password"
 							className="input  input-accent w-full 
                     border-none
-                    opacity-30
-                    bg-slate-600 text-white placeholder:text-white
+                    bg-slate-600 text-white 
                     "
 						/>
 						<span

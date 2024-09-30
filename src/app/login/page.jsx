@@ -35,8 +35,7 @@ const LoginPage = () => {
 						placeholder="Enter username/Email"
 						className="input  input-accent w-full 
                     border-none
-                    opacity-30
-                    bg-slate-600 text-white placeholder:text-white
+                    bg-slate-600 text-white 
                     "
 					/>
 					<span className="relative w-full flex ">
@@ -45,8 +44,7 @@ const LoginPage = () => {
 							placeholder="Enter Password"
 							className="input  input-accent w-full 
                     border-none
-                    opacity-30
-                    bg-slate-600 text-white placeholder:text-white
+                    bg-slate-600 text-white 
                     "
 						/>
 						<span
